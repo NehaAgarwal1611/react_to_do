@@ -1,0 +1,22 @@
+.to-do {
+	ul {
+		list-style-type: none;
+		padding-left: 0;
+		li {
+			&:first-child{
+				margin-top: 30px;
+			}
+			p {
+				display: inline-block;
+				border: 2px solid red;
+				border-right: none;
+				width: 81%;
+				padding: 8px;
+			}
+			button {
+				border: 1px solid black;
+				padding: 10px 15px;
+			}
+		}
+	}
+}
